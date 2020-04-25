@@ -2,6 +2,10 @@ html, body, #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
 }
 
+a {
+  color: rgb(49, 49, 49);
+}
+
 #container {
   height: 100%;
   display:flex; 

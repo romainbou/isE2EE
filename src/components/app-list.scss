@@ -1,3 +1,17 @@
 #app-list {
   margin: 0;
+
+  .yes {
+    background-color: #87f19efe
+  }
+  .no {
+    background-color: #ff9c8afe
+  }
+  .warn {
+    background-color: #ffd782fe
+  }
+  .maybe {
+    background-color: #b3b3b3fe
+  }
+
 }

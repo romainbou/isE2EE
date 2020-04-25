@@ -15,12 +15,11 @@ const AppList = ({ query }) => {
             Name
             Organization
             Official_Site
-            IsE2EE
-            IsOSS
-            IsServerOSS
-            By_default
-            Refs
-            Source
+            Is_E2EE
+            Is_E2EE_by_default
+            Is_E2EE_Reference
+            Is_Official_Client_OSS
+            Is_Server_OSS
             Million_users
           }
         }

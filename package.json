@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Romain Bouyé <romain@bouye.fr>",
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
     "fuse.js": "^5.2.3",
     "gatsby": "^2.20.25",
     "gatsby-image": "^2.3.4",
