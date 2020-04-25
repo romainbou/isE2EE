@@ -1,0 +1,44 @@
+.app-card {
+  // display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+
+  h2 {
+    margin: 0px;
+  }
+
+ .name {
+   grid-column: 1;
+ }
+ .answer {
+   margin: 0;
+   grid-column: 2;
+   border: 1px solid #555;
+   border-radius: 5px;
+   padding: 5px;
+   width: 4rem;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 1.3rem;
+   font-weight: bold;
+ }
+
+}
+
+.yes {
+  background-color: #7cff98fe
+}
+.no {
+  background-color: #ff826cfe
+}
+.warn {
+  background-color: #ffd06bfe
+}
+.maybe {
+  background-color: #b3b3b3fe
+}

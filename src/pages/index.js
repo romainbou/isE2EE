@@ -1,21 +1,59 @@
-import React from "react"
-import { Link } from "gatsby"
-
+import React, { useState, useEffect } from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import './index.css'
+import AppList from "../components/app-list"
+
+const IndexPage = () => {
+
+  const [query, setQuery] = useState('');
+  const [example, setExample] = useState('Signal');
+  
+  const data = useStaticQuery(graphql`
+    query SiteMetadataQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      allAppListCsv {
+        edges {
+          node {
+            Name
+          }
+        }
+      }
+    }
+  `)
+
+  const search = (event) => {
+    const query = event.target.value;
+    setQuery(query);
+  }
+
+  const changeExample = () => {
+    const numberItems = data.allAppListCsv.edges.length;
+    const randIndex = Math.floor(Math.random() * (numberItems));
+    const selectedApp = data.allAppListCsv.edges[randIndex].node;
+    setExample(selectedApp.Name);
+    setTimeout(() => {
+      changeExample()
+    }, 2000)
+  }
+
+  useEffect(() => {
+    changeExample();
+  }, []);
+  
+  return (
+    <Layout>
+      <SEO title={data.site.siteMetadata.title} />
+      <h1>Is <input onChange={search} placeholder={"e.g. " + example} /> E2E Encrypted?</h1>
+      <AppList query={query}/>
+    </Layout>
+  )
+}
 
 export default IndexPage
