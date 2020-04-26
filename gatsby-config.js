@@ -4,7 +4,6 @@ module.exports = {
     description: `Is it End-to-end Encrypted?`,
     author: `@gatsbyjs`,
   },
-  pathPrefix: "/isE2EE",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
