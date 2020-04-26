@@ -24,3 +24,7 @@ footer a {
   color: black;
   margin: 0.4rem;
 }
+
+.MuiExpansionPanelSummary-expandIcon {
+  max-width: 25px;
+}
