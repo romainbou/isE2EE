@@ -37,13 +37,15 @@ const AppCard = ({ app }) => {
       <ExpansionPanelDetails>
         <div className="links" >
           <h3><a href={app.Official_Site} >{app.Name}</a></h3>
-          <a href="">(Wikipedia)</a>
+          <a href={app.Wikipedia_Page}>(Wikipedia)</a>
         </div>
         <div className="details" >
+          {app.Is_E2EE_by_default.length > 0 &&          
           <div className="detail" >
             <h4>E2EE By Default</h4>
             <p className={colorSelector(app.Is_E2EE_by_default)} >{app.Is_E2EE_by_default}</p>
           </div>
+          }
           <div className="detail" >
             <h4>Client Open Source</h4>
             <p className={colorSelector(app.Is_Official_Client_OSS)} >{app.Is_Official_Client_OSS}</p>
@@ -53,9 +55,14 @@ const AppCard = ({ app }) => {
             <p className={colorSelector(app.Is_Server_OSS)} >{app.Is_Server_OSS}</p>
           </div>
         </div>
-        <div>
-          <a href={app.Is_E2EE_Reference} >Source</a>
-        </div>
+        {app.Is_E2EE_Reference.length > 0 ?
+          <div>
+            <a href={app.Is_E2EE_Reference} >Source</a>
+          </div> :
+          <div>
+            <a href="https://github.com/romainbou/isE2EE/blob/master/src/data/app-list.csv" >Missing source, please contribute</a>
+          </div>
+      }
       </ExpansionPanelDetails>
     </ExpansionPanel>
   )

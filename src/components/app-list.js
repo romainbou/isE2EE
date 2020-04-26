@@ -20,6 +20,7 @@ const AppList = ({ query }) => {
             Is_E2EE_Reference
             Is_Official_Client_OSS
             Is_Server_OSS
+            Wikipedia_Page
             Million_users
           }
         }
