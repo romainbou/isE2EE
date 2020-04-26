@@ -2,7 +2,7 @@
 Is it End-to-end Encrypted?
 
 
-Please feel free to collaborate on the data [in the spreadsheet here](https://ethercalc.org/o2vpstli66gd) or open an issue if anything is wrong.
+Please feel free to contribue. [It's all in a simple CSV spreadsheet](https://github.com/romainbou/isE2EE/blob/master/src/data/app-list.csv).
 
 Temporary preview URL: https://romainbou.github.io/isE2EE/
 
