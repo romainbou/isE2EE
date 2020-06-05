@@ -4,6 +4,7 @@ Matrix (Riot),Yes,Yes,Yes,Yes,https://matrix.org/faq#what-is-the-status-of-e2e,D
 Wire,Yes,Yes,,,https://wire.com/en/security/,Double Ratchet Algorithm,Yes,Yes,Wire ,,https://app.wire.com/,https://en.wikipedia.org/wiki/Wire_(software),https://github.com/wireapp,https://github.com/wireapp/wire-webapp,https://github.com/wireapp/wire-server
 Keybase,Yes,Yes,,No,https://keybase.io/blog/keybase-chat,,Yes,No,Keybase,,https://keybase.io,https://en.wikipedia.org/wiki/Keybase,,https://github.com/keybase,
 Rocket.Chat,Yes,Yes,Yes,Yes,https://rocket.chat/security,,Yes,Yes,,,https://rocket.chat/,,https://github.com/RocketChat/Rocket.Chat,https://github.com/RocketChat/Rocket.Chat,
+Status,Yes,Yes,Yes,Yes,,,Yes,,,,https://status.im/,,https://github.com/status-im,,
 WhatsApp,Yes,Yes,Yes,No,https://www.whatsapp.com/security/,Double Ratchet Algorithm,No,No,Facebook ,1200,https://www.whatsapp.com/,https://en.wikipedia.org/wiki/WhatsApp,,,
 Discord ,No,,,,,,No,No,Discord inc. ,250,https://discordapp.com/,https://en.wikipedia.org/wiki/Discord_(software),,,
 Slack,No,,,,https://slack.com/intl/en-gb/security,,No,No,Slack Inc.,,https://slack.com/,https://en.wikipedia.org/wiki/Slack_(software),,,
@@ -12,6 +13,7 @@ Jitsi Meet,No,Soon,,,,,Yes,Yes,Jitsi,,https://meet.jit.si/,https://en.wikipedia.
 Zoom,No,,,,https://zoom.us/security,,No,No,Zoom inc.,,https://zoom.us/,https://en.wikipedia.org/wiki/Zoom_Video_Communications,,,
 HouseParty,No,,,,https://www.digitaltrends.com/news/houseparty-privacy-tracking-security/,,No,No,,,https://www.houseparty.com/,https://en.wikipedia.org/wiki/Houseparty_(app),,,
 Mattermost,No,No,,,https://mattermost.com/security/,,Yes,Yes,"Mattermost, Inc",,https://mattermost.com/,https://en.wikipedia.org/wiki/Mattermost,https://github.com/mattermost,https://github.com/mattermost/desktop,https://github.com/mattermost/mattermost-server
+Nextcloud Talk,No,,,,,,Yes,Yes,Nextcloud GmbH,,https://nextcloud.com/talk/,,https://github.com/nextcloud,https://github.com/nextcloud/talk-android,https://github.com/nextcloud/spreed
 Google Hangouts,No,,,,https://support.google.com/hangouts/answer/6191867,,No,No,Google,,https://hangouts.google.com/,https://en.wikipedia.org/wiki/Google_Hangouts,,,
 Google Meet,No,,,,https://support.google.com/a/answer/7582940?hl=en,,No,No,Google,,https://meet.google.com/,https://en.wikipedia.org/wiki/Google_Hangouts#Google_Meet,,,
 Google Duo,Yes,Yes,,,https://support.google.com/duo/answer/9280240?hl=en,,No,No,Yes,,https://duo.google.com/,https://en.wikipedia.org/wiki/Google_Duo,,,
@@ -33,3 +35,4 @@ ShareChat ,No,,,,,,No,No,Mohalla Tech Private Limited ,60,https://sharechat.com/
 eBuddy XMS ,No,,,,,,No,No,eBuddy ,250,https://www.ebuddyxms.com/,https://en.wikipedia.org/wiki/EBuddy,,,
 Dust,Yes,Yes,,,,,No,No,Dust,,https://usedust.com/,,,,
 Zulip,No,,,,https://zulipchat.com/security/,,Yes,Yes,Dropbox,,https://zulipchat.com/,https://en.wikipedia.org/wiki/Zulip,https://github.com/zulip/zulip,,
+Amazon Chime,No,,,,https://aws.amazon.com/blogs/business-productivity/understanding-security-in-the-amazon-chime-application-and-sdk/,,No,No,Amazon,,https://aws.amazon.com/chime/,,,,
