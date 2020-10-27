@@ -28,6 +28,13 @@ const Layout = ({ children }) => {
   return (
     <div id="container">
       <Header siteTitle={data.site.siteMetadata.title} />
+      <div style={{
+        backgroundColor: "rgb(255, 214, 118)",
+        width: "100%",
+        textAlign: "center"
+      }} >
+        Warning: information might not be up-to-date
+      </div>
       <div
         style={{
           margin: `0 auto`,

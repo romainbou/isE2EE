@@ -9,8 +9,8 @@ WhatsApp,Yes,Yes,Yes,No,https://www.whatsapp.com/security/,Double Ratchet Algori
 Discord ,No,,,,,,No,No,Discord inc. ,250,https://discordapp.com/,https://en.wikipedia.org/wiki/Discord_(software),,,
 Slack,No,,,,https://slack.com/intl/en-gb/security,,No,No,Slack Inc.,,https://slack.com/,https://en.wikipedia.org/wiki/Slack_(software),,,
 Telegram ,Not by default,No,Yes,Yes,https://en.wikipedia.org/wiki/Telegram_(software)#Security,,Yes,No,Telegram Messenger LLP ,400,https://telegram.org/,https://en.wikipedia.org/wiki/Telegram_(software),https://github.com/telegramdesktop,https://github.com/telegramdesktop/tdesktop,
-Jitsi Meet,No,Soon,,,,,Yes,Yes,Jitsi,,https://meet.jit.si/,https://en.wikipedia.org/wiki/Jitsi,https://github.com/jitsi/,https://github.com/jitsi/jitsi-meet,https://github.com/jitsi/jigasi
-Zoom,No,,,,https://zoom.us/security,,No,No,Zoom inc.,,https://zoom.us/,https://en.wikipedia.org/wiki/Zoom_Video_Communications,,,
+Jitsi Meet,Not by default,Soon,,,,,Yes,Yes,Jitsi,,https://meet.jit.si/,https://en.wikipedia.org/wiki/Jitsi,https://github.com/jitsi/,https://github.com/jitsi/jitsi-meet,https://github.com/jitsi/jigasi
+Zoom,Not by default,,,,https://zoom.us/security,,No,No,Zoom inc.,,https://zoom.us/,https://en.wikipedia.org/wiki/Zoom_Video_Communications,,,
 HouseParty,No,,,,https://www.digitaltrends.com/news/houseparty-privacy-tracking-security/,,No,No,,,https://www.houseparty.com/,https://en.wikipedia.org/wiki/Houseparty_(app),,,
 Mattermost,No,No,,,https://mattermost.com/security/,,Yes,Yes,"Mattermost, Inc",,https://mattermost.com/,https://en.wikipedia.org/wiki/Mattermost,https://github.com/mattermost,https://github.com/mattermost/desktop,https://github.com/mattermost/mattermost-server
 Nextcloud Talk,No,,,,,,Yes,Yes,Nextcloud GmbH,,https://nextcloud.com/talk/,,https://github.com/nextcloud,https://github.com/nextcloud/talk-android,https://github.com/nextcloud/spreed

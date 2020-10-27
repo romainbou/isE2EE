@@ -1,5 +1,8 @@
+## /!\ Not actively maintained /!\
+
 # isE2EE
 Is it End-to-end Encrypted?
+
 
 [isEndtoEndEncrypted.com](https://isendtoendencrypted.com)
 
